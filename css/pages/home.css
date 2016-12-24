@@ -1,0 +1,77 @@
+.page-nav-wrap{
+    width: 100%;
+    height: 36px;
+    background-color: #ddd;
+}
+.page-nav{
+    width: 1080px;
+    height: 36px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.xdd-icon-down:before{
+    content: "\f107";
+    font-family: "xdd-icon";
+}
+.address{
+    margin-top: 8px;
+}
+.address:hover .xdd-icon-down:before{
+    content: "\f105";
+}
+.signOut{
+    padding: 8px 8px;
+    cursor: pointer;
+}
+.signOut:hover{
+    background-color: #c40000;
+    color: #fff;
+}
+.page-header-wrap{
+    width: 100%;
+    height: 120px;
+}
+.page-header{
+    width: 1080px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #ddd;
+}
+.searchNameWrap{
+    width: 360px;
+    margin: 20px auto;
+
+}
+.searchButton{
+    background-color: #c40000;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    height: 34px;
+}
+.searchButton:link {color: #fff;}
+.searchButton:visited {color: #fff;}
+.searchButton:hover {color: #fff;}
+.searchButton:active {color: #fff;}
+/*.promptNews{*/
+    /*width: 1080px;*/
+    /*height: 30px;*/
+    /*background-color: #c40000;*/
+    /*line-height: 30px;*/
+    /*font-size: 17px;*/
+    /*text-align: center;*/
+    /*padding: 0;*/
+    /*border-radius: 0;*/
+/*}*/
+/*.promptNews a{*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.promptNews .badge{*/
+    /*background-color: #fff;*/
+    /*color: #c40000;*/
+/*}*/
+.tabPage{
+
+}
