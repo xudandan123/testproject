@@ -1,7 +1,7 @@
 .page-nav-wrap{
     width: 100%;
     height: 36px;
-    background-color: #ddd;
+    background-color: #f2f2f1;
 }
 .page-nav{
     width: 1080px;
@@ -29,18 +29,20 @@
 }
 .page-header-wrap{
     width: 100%;
-    height: 120px;
+    height: 150px;
 }
-.page-header{
+.page-headers{
     width: 1080px;
-    height: 120px;
+    height: 150px;
     margin: 0 auto;
+    position: relative;
     overflow: hidden;
-    background-color: #ddd;
+    border-bottom:1px solid #c40000;
+
 }
 .searchNameWrap{
     width: 360px;
-    margin: 20px auto;
+    margin: 35px auto;
 
 }
 .searchButton{
@@ -54,24 +56,21 @@
 .searchButton:visited {color: #fff;}
 .searchButton:hover {color: #fff;}
 .searchButton:active {color: #fff;}
-/*.promptNews{*/
-    /*width: 1080px;*/
-    /*height: 30px;*/
-    /*background-color: #c40000;*/
-    /*line-height: 30px;*/
-    /*font-size: 17px;*/
-    /*text-align: center;*/
-    /*padding: 0;*/
-    /*border-radius: 0;*/
-/*}*/
-/*.promptNews a{*/
-    /*color: #fff;*/
-    /*text-decoration: none;*/
-/*}*/
-/*.promptNews .badge{*/
-    /*background-color: #fff;*/
-    /*color: #c40000;*/
-/*}*/
 .tabPage{
-
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    bottom: -1px;
+    margin-bottom: 0;
+}
+.tabPage li{
+    float: left;
+}
+.tabPage li a{
+    padding: 6px 12px;
+    font-size: 17px;
+    border-top: 3px solid #fff;
+    display: block;
+    color: #34495e;
+    text-decoration: none;
 }
